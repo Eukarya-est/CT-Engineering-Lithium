@@ -1,0 +1,15 @@
+{
+    "kiloVolts":"kV",
+    "milliAmps":"mA",
+    "scanSpacing":"Detector Coverage",
+    "pitch":"Pitch",
+    "reconImageThickness":"Recon Slice Thickness",
+    "scanFieldOfViewType":"SFOV",
+    "reconClinicalIdKey":"Recon Clinical Identifier",
+    "reconClinicalIdCategoryKey":"Recon CID Catergory",
+    "reconKernel":"Recon Type",
+    "reconNumberOfImages": "Recon Number of Images",
+    "displayFieldOfView":"DFOV",
+    "reconMatrix":"Recon Matrix",
+    "enhancedContrast":"Enhanced Contrast"
+}

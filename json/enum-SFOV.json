@@ -1,0 +1,13 @@
+{
+    "SFOV":{
+        "1":"Ped Head",
+        "2":"Head",
+        "256":"Small Body",
+        "512":"Medium Body",
+        "1024":"Large Body",
+        "2048":"Ped Body",
+        "2049":"Small Head",
+        "2050":"Cardiac Small",
+        "2052":"Cardiac Large"
+    }
+}

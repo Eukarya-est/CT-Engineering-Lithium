@@ -1,0 +1,21 @@
+{   
+    "Recon Type":{
+        "2":"Soft",
+        "142":"Soft#",
+        "4":"Stnd",
+        "143":"Stnd#",
+        "128":"Lung",
+        "65536":"Chest",
+        "8":"Detail",
+        "16":"Bone",
+        "16384":"Bone Plus",
+        "262144":"Ultra",
+        "32":"Edge",
+        "1048576":"Edge Plus",
+        "0":"None",
+        "1":"Smooth",
+        "8192":"Ibo",
+        "-1":"Undefined"
+    }
+
+}

@@ -1,0 +1,8 @@
+{
+    "searchKey.json":"search Key",
+    "enum-SFOV.json":"SFOV",
+    "enum-cidCategory.json":"Recon CID Catergory",
+    "enum-CID.json":"Recon Clinical Identifier",
+    "enum-reconType.json":"Recon Type",
+    "enum-EC.json":"Enhanced Contrast"
+}

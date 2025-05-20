@@ -1,0 +1,14 @@
+{
+    "Recon CID Catergory":{
+        "0":"---",
+        "1":"Neuro",
+        "2":"Abdominal",
+        "3":"Stroke",
+        "4":"Pelvis",
+        "5":"Extremity",
+        "6":"Cardiac",
+        "7":"Thoracic",
+        "8":"Spine",
+        "15":"Trauma"
+    }
+}
