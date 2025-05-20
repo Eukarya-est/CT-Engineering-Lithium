@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session:session name="ABD-PEL Recon in IGD heavy" xsi:schemaLocation="http://wf.di.med.xy.com/session ../schemas/session.xsd" xmlns:session="http://wf.di.med.xy.com/2006/session" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session:property name="legacyProtocolFilename" value=""/>
+  <session:data id="data.9144903.1165148084803" name="MetaData" type="com.xy.med.di.wf.protocol.storage.MetaDataHandler">
+    <session:property name="uuid" value="4c1a5ad2-e1e6-4740-960b-ac8c0ea90a85"/>
+    <session:property name="library" value="Site"/>
+    <session:property name="humanoid" value="adult"/>
+    <session:property name="repository" value="local"/>
+    <session:property name="anatomy" value="abdomen"/>
+  </session:data>
+  <session:property name="LAST_USED_SERIES_NUMBER_OVERFLOW" value="1000"/>
+  <session:property name="PPS_STATUS" value="true"/>
+  <session:task name="ProtocolTask_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTProtocolTask">
+    <session:data id="data.919401500.1394487436491" name="UIRXFile" type="com.xy.med.di.wf.protocol.storage.WfReferencedResource">
+      <session:property name="CONTENT_PROPERTY" value="UIRx.xml"/>
+    </session:data>
+    <session:property name="DESCRIPTION" value="ABD-PEL Recon in IGD heavy"/>
+    <session:property name="type" value="PROTOCOL"/>
+    <session:property name="notes" value="Notes for Scout, Axial, Helical and Cardiac protocol"/>
+    <session:property name="isSelected" value="false"/>
+    <session:task name="Series_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="DESCRIPTION" value="Scout"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isSelected" value="false"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Scout"/>
+      <session:task name="Series_1_Setting_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group 1"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="1"/>
+        <session:property name="scanType" value="Scout"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="STATE" value="EMPTY"/>
+      </session:task>
+      <session:task name="Series_1_Setting_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group 2"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="1"/>
+        <session:property name="scanType" value="Scout"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="STATE" value="EMPTY"/>
+      </session:task>
+      <session:task name="Series_1_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="1"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="STATE" value="EMPTY"/>
+      </session:task>
+      <session:task name="Series_1_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="DESCRIPTION" value="Scout"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="regions" value="ALL"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data id="data.862595128.1394487436483" name="Series_1_Recon_0_data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData">
+          <session:property name="EXPECTED_NUM_IMAGES" value="2"/>
+          <session:property name="level" value="series"/>
+        </session:data>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <session:property name="TRANSFER_DOSESC_ENABLED" value="false"/>
+          <session:property name="TRANSFER_DOSESR_ENABLED" value="false"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="6f677e8c-a0c6-4844-8b4f-96392c11c5d3"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="4c1e06c7-2391-4108-ae1b-538b43880a26"/>
+      <session:property name="PRIMARY_TASK_UID" value="4c1e06c7-2391-4108-ae1b-538b43880a26"/>
+      <session:property name="STATE" value="EMPTY"/>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.9428334975202647923583495698288773115"/>
+    </session:task>
+    <session:property name="isConstrained" value="false"/>
+    <session:property name="isValid" value="false"/>
+    <session:task name="Series_2_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Short IGD"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Group 1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group 3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Axial Cluster"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Axial"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="STATE" value="EMPTY"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data id="data.1331326783.1404647243544" name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="level" value="series"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Short IGD"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <session:property name="TRANSFER_DOSESC_ENABLED" value="false"/>
+          <session:property name="TRANSFER_DOSESR_ENABLED" value="false"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="a589525b-7a6a-4822-8965-e1f412ca8cda"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="623f0acc-27f1-4b83-8105-9d91cb4fa3ef"/>
+      <session:property name="PRIMARY_TASK_UID" value="623f0acc-27f1-4b83-8105-9d91cb4fa3ef"/>
+      <session:property name="STATE" value="EMPTY"/>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.265418931061288303018461954041622929286"/>
+      <session:task name="Series_2_Recon_0_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.779153082.1679651276743">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro 1st Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[0].recon[1]"/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.315631237.1679651276745">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro Axial"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[1].recon[2]"/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+    </session:task>
+    <session:task name="Series_2_2_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Axial Cluster"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Group 3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Axial Cluster"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Axial"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Axial Cluster"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="a589525b-7a6a-4822-8965-e1f412ca8cda"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="74ce811c-fe8d-4991-894e-c134eb42b4b3"/>
+      <session:property name="PRIMARY_TASK_UID" value="74ce811c-fe8d-4991-894e-c134eb42b4b3"/>
+      <session:task name="Series_2_Recon_0_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro Axial"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[1].recon[2]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.273992990200044245275698297022805938811"/>
+    </session:task>
+    <session:task name="Series_2_2_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Mid IGD"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Group 1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group 3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Axial Cluster"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Axial"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group 4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.2078669433.1679651276751">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Mid IGD"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="a589525b-7a6a-4822-8965-e1f412ca8cda"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="6120ada8-658a-4809-bc84-1374474b572f"/>
+      <session:property name="PRIMARY_TASK_UID" value="6120ada8-658a-4809-bc84-1374474b572f"/>
+      <session:task name="Series_2_Recon_0_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.861589292.1679651276753">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro 1st Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[0].recon[1]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.111069640.1679651276754">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro Axial"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[1].recon[2]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1397117562.1679651276758">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro 2nd Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[2].recon[3]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.12153653375882024012260724607753781499"/>
+    </session:task>
+    <session:task name="Series_2_2_2_3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Long Predelay &amp; Short IGD"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Group 1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group 3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Axial Cluster"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Axial"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group 4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.288274315.1679651276761">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Long Predelay &amp; Short IGD"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="a589525b-7a6a-4822-8965-e1f412ca8cda"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="023ea053-9993-4e9e-9f86-a13fb7173338"/>
+      <session:property name="PRIMARY_TASK_UID" value="023ea053-9993-4e9e-9f86-a13fb7173338"/>
+      <session:task name="Series_2_Recon_0_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1665989935.1679651276763">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro 1st Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[0].recon[1]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.386648032.1679651276765">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro Axial"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[1].recon[2]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.228495599.1679651276768">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro 2nd Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[2].recon[3]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.292995031151193056313762875522889491648"/>
+    </session:task>
+    <session:task name="Series_2_2_2_3_4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="SmatPrep"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Group 1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_2_2_3_4_Axial_Intell_Prep" type="com.xy.med.ct.wfplat.study.intellpreptask.impl.CTIntellPrepTask" xmlns:vav="http://vav.di.med.xy.com/protocol" xmlns:display="http://wf.di.med.xy.com/2006/display">
+        <session:property name="DESCRIPTION" value="Intell Prep"/>
+        <session:property name="type" value="INTELLPREP"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="completed" value="NOT_COMPLETED"/>
+        <session:property name="scanType" value="Axial"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="multiSelected" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="201"/>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.intellprep.CTBaseLineState"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1706526520.1679651276772">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="SmatPrep"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="a589525b-7a6a-4822-8965-e1f412ca8cda"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="97c8354f-1dad-4728-9c03-f69616b6da35"/>
+      <session:property name="PRIMARY_TASK_UID" value="97c8354f-1dad-4728-9c03-f69616b6da35"/>
+      <session:task name="Series_2_Recon_0_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1213176952.1679651276774">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Retro 1st Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[5].group[0].recon[1]"/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.192407113854499789030327637214808765523"/>
+    </session:task>
+    <session:task name="Series_2_2_2_3_4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Many Helical"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Group 1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Long Helical"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Long Helical.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 1"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 2"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 3"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 4"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 5"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 6"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 7"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 8"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 9"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 10"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 11"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Group Short Helical.1.1.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group Short Helical 12"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1671210190.1679651276780">
+          <session:property name="EXPECTED_NUM_IMAGES" value="81"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:data>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="DESCRIPTION" value="Many Helical"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </session:task>
+        <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="a589525b-7a6a-4822-8965-e1f412ca8cda"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="c60a7123-1915-4fb3-8a5f-411aaf5ee6cd"/>
+      <session:property name="PRIMARY_TASK_UID" value="c60a7123-1915-4fb3-8a5f-411aaf5ee6cd"/>
+      <session:property name="QcSeriesUID" value="1.2.840.113619.2.497.300873516389308083743214034501211469737"/>
+    </session:task>
+  </session:task>
+  <session:task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+    <session:property name="TRANSFER_DOSESC_ENABLED" value="true"/>
+    <session:property name="TRANSFER_DOSESR_ENABLED" value="true"/>
+    <session:property name="isConstrained" value="false"/>
+    <session:property name="isValid" value="false"/>
+    <session:property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+  </session:task>
+</session:session>

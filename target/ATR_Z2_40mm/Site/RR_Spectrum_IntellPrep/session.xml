@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session name="Abdomen Pelvis - LIVER MULTI (4) PHASE*" xsi:schemaLocation="http://wf.di.med.xy.com/session ../schemas/session.xsd" xmlns="http://wf.di.med.xy.com/2006/session" xmlns:session="http://wf.di.med.xy.com/2006/session" xmlns:vav="http://vav.di.med.xy.com/protocol" xmlns:display="http://wf.di.med.xy.com/2006/display" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <property value="" name="legacyProtocolFilename"/>
+  <data id="data.9144903.1165148084803" type="com.xy.med.di.wf.protocol.storage.MetaDataHandler" name="MetaData">
+    <property name="uuid" value="5fa7c891-366b-41fb-879f-fc0a353edf06"/>
+    <property name="library" value="Site"/>
+    <property name="humanoid" value="adult"/>
+    <property name="repository" value="local"/>
+    <property name="anatomy" value="abdomen"/>
+  </data>
+  <property name="LAST_USED_SERIES_NUMBER_OVERFLOW" value="1000"/>
+  <property name="PPS_STATUS" value="true"/>
+  <task name="ProtocolTask_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTProtocolTask">
+    <data name="UIRXFile" type="com.xy.med.di.wf.protocol.storage.WfReferencedResource" id="data.919401500.1394487436491">
+      <property name="CONTENT_PROPERTY" value="UIRx.xml"/>
+    </data>
+    <property name="DESCRIPTION" value="Abdomen Pelvis - LIVER MULTI (4) PHASE (site ATR)"/>
+    <property name="type" value="PROTOCOL"/>
+    <property name="notes" value="Notes for Scout, Axial, Helical and Cardiac protocol"/>
+    <property name="isSelected" value="false"/>
+    <task name="Series_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <property name="DESCRIPTION" value="Scout"/>
+      <property name="type" value="SERIES"/>
+      <property name="isSelected" value="false"/>
+      <property name="isConstrained" value="false"/>
+      <property name="isValid" value="false"/>
+      <property name="scanType" value="Scout"/>
+      <task name="Series_1_Setting_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <property name="DESCRIPTION" value="Group 1"/>
+        <property name="type" value="SETTING"/>
+        <property name="isSelected" value="false"/>
+        <property name="isConstrained" value="false"/>
+        <property name="isValid" value="false"/>
+        <property name="seriesNumber" value="1"/>
+        <property name="scanType" value="Scout"/>
+        <property name="showPopup" value="true"/>
+        <property name="STATE" value="EMPTY"/>
+      </task>
+      <task name="Series_1_Setting_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <property name="DESCRIPTION" value="Group 2"/>
+        <property name="type" value="SETTING"/>
+        <property name="isSelected" value="false"/>
+        <property name="isConstrained" value="false"/>
+        <property name="isValid" value="false"/>
+        <property name="seriesNumber" value="1"/>
+        <property name="scanType" value="Scout"/>
+        <property name="showPopup" value="true"/>
+        <property name="STATE" value="EMPTY"/>
+      </task>
+      <task name="Series_1_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <property name="DESCRIPTION" value="Scan"/>
+        <property name="type" value="SCAN"/>
+        <property name="isSelected" value="false"/>
+        <property name="isConstrained" value="false"/>
+        <property name="isValid" value="false"/>
+        <property name="seriesNumber" value="1"/>
+        <property name="scanType" value="Scan"/>
+        <property name="showPopup" value="true"/>
+        <property name="STATE" value="EMPTY"/>
+      </task>
+      <task name="Series_1_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <property name="DESCRIPTION" value="Scout"/>
+        <property name="PRIMARY" value="true"/>
+        <property name="regions" value="ALL"/>
+        <property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <data name="Series_1_Recon_0_data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.862595128.1394487436483">
+          <property name="level" value="series"/>
+          <property name="EXPECTED_NUM_IMAGES" value="2"/>
+        </data>
+        <property name="isConstrained" value="false"/>
+        <property name="isValid" value="false"/>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="isAutoRunEnabled" value="true"/>
+        <property name="isAutoViewEnabled" value="true"/>
+        <property name="reconPossible" value="true"/>
+        <property name="INVALID_PRESCRIPTION" value="false"/>
+        <property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[0].group[0].recon[0]"/>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </task>
+      <property name="PRIMARY_SELECTION_ID" value="b25666d0-05be-4e4c-a400-13b8ed776ec7"/>
+      <property name="PRIMARY_SELECTED_ID" value="c34e98f4-4080-4a46-8f23-2e93430d108a"/>
+      <property name="PRIMARY_TASK_UID" value="c34e98f4-4080-4a46-8f23-2e93430d108a"/>
+      
+      <property name="QcSeriesUID" value="1.2.840.113619.2.496.208663155783295609232408093305942469475"/>
+    </task>
+    <property name="isConstrained" value="false"/>
+    <property name="isValid" value="false"/>
+    <task name="Series_2_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Abdomen Pelvis Pre"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <task name="Axial Arterial Chest.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group 1"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <property name="STATE" value="EMPTY"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1114711246.1402688303564">
+          <property name="level" value="series"/>
+          <property name="EXPECTED_NUM_IMAGES" value="201"/>
+        </session:data>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="DESCRIPTION" value="Abdomen Pelvis Pre"/>
+        <property name="isConstrained" value="false"/>
+        <property name="isValid" value="false"/>
+        <property name="isAutoRunEnabled" value="true"/>
+        <property name="isAutoViewEnabled" value="true"/>
+        <property name="reconPossible" value="true"/>
+        <property name="INVALID_PRESCRIPTION" value="false"/>
+        <property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[0].recon[0]"/>
+        <property name="ReconType" value="GSI_NONE"/>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <property name="PRIMARY_SELECTION_ID" value="c5699271-0c69-4524-9b31-7497accd364d"/>
+      <property name="PRIMARY_SELECTED_ID" value="a339c4c0-9704-4ae5-839c-ca81fe553540"/>
+      <property name="PRIMARY_TASK_UID" value="a339c4c0-9704-4ae5-839c-ca81fe553540"/>
+      
+      <property name="QcSeriesUID" value="1.2.840.113619.2.496.191357796874266073733573942916887213500"/>
+      <task name="Series_2_Recon_0_2_4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1819469835.1634524496168">
+          <session:property name="EXPECTED_NUM_IMAGES" value="801"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="Pre Abdo Pelvis Thins"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[0].recon[1]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.596227044.1634598244346">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="52"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.517578"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Axial"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.056641"/>
+            <session:property name="vectorX" value="0.0"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567631)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Pre Abdo Pelvis Ax 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Pre Abdo Pelvis Ax 3mm"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.219695875.1634598244347">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Coronal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567639)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Pre Abdo Pelvis Cor 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Pre Abdo Pelvis Cor 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.63646790.1634598244351">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.7"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Coronal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Sagittal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="-0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567651)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Pre Abdo Pelvis Sag 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Pre Abdo Pelvis Sag 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+          <property name="VIEWPORT_INDICATOR_ID" value="0"/>
+        </session:task>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </task>
+    </task>
+    <task name="Series_2_2_2" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Abdomen Pelvis +C"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Series_2_Setting_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Arterial Abdo"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Axial Arterial Chest.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="PV Abdo Pelvis"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_2_Axial_Intell_Prep" type="com.xy.med.ct.wfplat.study.intellpreptask.impl.CTIntellPrepTask">
+        <session:property name="DESCRIPTION" value="Intell Prep"/>
+        <session:property name="type" value="INTELLPREP"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="completed" value="NOT_COMPLETED"/>
+        <session:property name="scanType" value="Axial"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="multiSelected" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="201"/>
+        <session:property name="PREV_IMAGE_SERIES_UID" value="1.2.840.113619.2.416.148421436787505519486252805818423103785"/>
+        <session:property name="PREV_IMAGE_SERIES_NUMBER" value="201"/>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.intellprep.CTBaseLineState"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1222121486.1634598571167">
+          <session:property name="EXPECTED_NUM_IMAGES" value="282"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="Abdomen Pelvis +C"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[1].group[0].recon[0]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="c5699271-0c69-4524-9b31-7497accd364d"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="f325173b-5871-455f-a760-333bee5af3e4"/>
+      <session:property name="PRIMARY_TASK_UID" value="f325173b-5871-455f-a760-333bee5af3e4"/>
+      
+      <session:task name="Series_2_Recon_0_1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.393334052.1634598571180">
+          <session:property name="EXPECTED_NUM_IMAGES" value="321"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="Art Abdo Thins"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[2].group[0].recon[1]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.1363501198.1634875038915">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="52"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.517578"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Axial"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.056641"/>
+            <session:property name="vectorX" value="0.0"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567631)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Art Abdo Ax 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Art Abdo Ax 3mm"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.1002108538.1634875038917">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Coronal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567639)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Art Abdo Cor 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Art Abdo Cor 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.810477081.1634875038918">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Coronal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Sagittal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="-0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567651)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Art Abdo Sag 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Art Abdo Sag 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_1_3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.1109080634.1634598571198">
+          <session:property name="EXPECTED_NUM_IMAGES" value="61"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="Lung 2.5mm"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[2].group[0].recon[2]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0_2_4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.308266595.1634598571209">
+          <session:property name="EXPECTED_NUM_IMAGES" value="801"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="PV Abdo Pelvis Thins"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[2].group[1].recon[3]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.277679756.1634875038924">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="52"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.517578"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Axial"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.056641"/>
+            <session:property name="vectorX" value="0.0"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567631)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="PV Abdo Pelvis Ax 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="PV Abdo Pelvis Ax 3mm"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.1050989708.1634875038926">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Coronal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567639)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="PV Abdo Pelvis Cor 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="PV Abdo Pelvis Cor 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.600828139.1634875038928">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.7"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Coronal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Sagittal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="-0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567651)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="PV Abdo Pelvis Sag 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="PV Abdo Pelvis Sag 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="VIEWPORT_INDICATOR_ID" value="0"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <property name="QcSeriesUID" value="1.2.840.113619.2.496.15582499615203397872307256248851197423"/>
+    </task>
+    <task name="Series_2_2_3" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSeriesTask">
+      <session:property name="NUMBER" value="1"/>
+      <session:property name="DESCRIPTION" value="Abdomen Pelvis Delay"/>
+      <session:property name="type" value="SERIES"/>
+      <session:property name="isConstrained" value="false"/>
+      <session:property name="isValid" value="false"/>
+      <session:property name="scanType" value="Axial"/>
+      <session:property name="isSelected" value="false"/>
+      <session:task name="Axial Arterial Chest.1" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTSettingsTask">
+        <session:property name="DESCRIPTION" value="Group 1"/>
+        <session:property name="type" value="SETTING"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="NUMBER" value="0"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Helical"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+        <session:property name="grx_primary_selection_property" value="PRIMARY"/>
+      </session:task>
+      <session:task name="Series_2_Scan" type="com.xy.med.ct.wfplat.study.scantasks.impl.CTScanTask">
+        <session:property name="NUMBER" value="1"/>
+        <session:property name="DESCRIPTION" value="Scan"/>
+        <session:property name="type" value="SCAN"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="seriesNumber" value="2"/>
+        <session:property name="scanType" value="Scan"/>
+        <session:property name="isSelected" value="false"/>
+        <session:property name="showPopup" value="true"/>
+      </session:task>
+      <session:task name="Series_2_Recon_0" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="true"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.759883323.1634598713187">
+          <session:property name="EXPECTED_NUM_IMAGES" value="201"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="Abdomen Pelvis Delay"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[3].group[0].recon[0]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <session:property name="PRIMARY_SELECTION_ID" value="c5699271-0c69-4524-9b31-7497accd364d"/>
+      <session:property name="PRIMARY_SELECTED_ID" value="370fa9fa-729e-48dd-8957-68ac90c0d15a"/>
+      <session:property name="PRIMARY_TASK_UID" value="370fa9fa-729e-48dd-8957-68ac90c0d15a"/>
+      
+      <session:task name="Series_2_Recon_0_2_4" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReconTask">
+        <session:property name="regions" value="ALL"/>
+        <session:property name="PRIMARY" value="false"/>
+        <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+        <session:data name="Series_2_Recon_0_Data" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDicomRepositoryData" id="data.580283505.1634598713197">
+          <session:property name="EXPECTED_NUM_IMAGES" value="801"/>
+          <property name="level" value="series"/>
+        </session:data>
+        <session:property name="DESCRIPTION" value="Delay Abdo Pelvis Thins"/>
+        <session:property name="isConstrained" value="false"/>
+        <session:property name="isValid" value="false"/>
+        <session:property name="isAutoRunEnabled" value="true"/>
+        <session:property name="isAutoViewEnabled" value="true"/>
+        <session:property name="reconPossible" value="true"/>
+        <session:property name="INVALID_PRESCRIPTION" value="false"/>
+        <session:property name="SELECTED_GROUP_PATHS" value="uirx.exam.proto[0].series[3].group[0].recon[1]"/>
+        <session:property name="ReconType" value="GSI_NONE"/>
+        <session:property name="type" value="RECON"/>
+        <session:property name="SIZE_OF_RECON_REQUEST" value=""/>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.1485412855.1634875038934">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="52"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.517578"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Axial"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.056641"/>
+            <session:property name="vectorX" value="0.0"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567631)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Delay Abdo Pelvis Ax 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Delay Abdo Pelvis Ax 3mm"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.375537109.1634875038935">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.700001"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Sagittal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Coronal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567639)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Delay Abdo Pelvis Cor 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="false"/>
+          <session:property name="DESCRIPTION" value="Delay Abdo Pelvis Cor 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <session:task name="Processed Images" type="com.xy.med.ct.wfplat.study.sessionservice.task.impl.CTReformatTask">
+          <import name="Series_2_Recon_0_Data" query="ancestor::wf:task//wf:data[@name='Series_2_Recon_0_Data']" xmlns=""/>
+          <session:data name="DMPRData_2" type="com.xy.med.ct.wfplat.study.sessionservice.data.CTDMPRData" id="data.231246774.1634875038937">
+            <session:property name="model" value="Oblique"/>
+            <session:property name="fieldOfView" value="35.7"/>
+            <session:property name="numberOfViews" value="19"/>
+            <session:property name="spacing" value="3.0"/>
+            <session:property name="version" value="2.0"/>
+            <session:property name="viewName" value="Coronal"/>
+            <session:property name="centerY" value="0.5"/>
+            <session:property name="centerX" value="0.5"/>
+            <session:property name="renderMode" value="average"/>
+            <session:property name="name" value="Body_Sagittal"/>
+            <session:property name="thickness" value="3.000000213054"/>
+            <session:property name="vectorY" value="0.0"/>
+            <session:property name="vectorX" value="-0.020508"/>
+            <session:property name="modality" value="ct"/>
+            <session:property name="type" value="Protocol"/>
+            <session:property name="anatomy" value="GENERAL"/>
+            <session:property name="matrixSize" value="512"/>
+            <session:property name="referenceImage" value="On"/>
+            <session:property name="autoRun" value="true"/>
+            <session:property name="voxelSize" value="-1"/>
+            <session:property name="autoFilming" value="On"/>
+            <session:property name="archive" value="archive"/>
+            <session:property name="nbCopies" value="1"/>
+            <session:property name="filmFormat" value="9"/>
+            <session:property name="fileType" value="genesis"/>
+            <session:property name="buildProtocols" value="DMPR_Builder(365567651)"/>
+            <session:property name="referenceOnFilm" value="first_film"/>
+            <session:property name="pageOrientation" value="portrait"/>
+            <session:property name="slotOrientation" value="horizontal"/>
+            <session:property name="protection" value="Off"/>
+            <session:property name="seriesDescription" value="Delay Abdo Pelvis Sag 3mm"/>
+            <session:property name="windowWidth" value="400"/>
+            <session:property name="windowLevel" value="40"/>
+          </session:data>
+          <session:property name="IS_DMPR_PP_TASK_OPEN" value="true"/>
+          <session:property name="DESCRIPTION" value="Delay Abdo Pelvis Sag 3mm"/>
+          <session:property name="IMAGE_SERIES_NUMBER" value="-1"/>
+          <session:property name="isConstrained" value="false"/>
+          <session:property name="isValid" value="false"/>
+          <session:property name="VIEWPORT_INDICATOR_ID" value="0"/>
+          <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+            <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+            <property name="isConstrained" value="false"/>
+            <property name="isValid" value="false"/>
+            <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+          </task>
+        </session:task>
+        <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+          <ses:property name="TRANSFER_DOSESC_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <ses:property name="TRANSFER_DOSESR_ENABLED" value="false" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+          <property name="isConstrained" value="false"/>
+          <property name="isValid" value="false"/>
+          <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+        </task>
+        <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+      </session:task>
+      <property name="QcSeriesUID" value="1.2.840.113619.2.496.167057898866692279176140844401820046440"/>
+    </task>
+  </task>
+  <task name="AutoJobTask" type="com.xy.med.ct.wfplat.study.autotasks.impl.CTAutoTask">
+    <ses:property name="TRANSFER_DOSESC_ENABLED" value="true" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+    <ses:property name="TRANSFER_DOSESR_ENABLED" value="true" xmlns:ses="http://wf.di.med.xy.com/2006/session"/>
+    <property name="isConstrained" value="false"/>
+    <property name="isValid" value="false"/>
+    <property name="STATE" value="com.xy.med.ct.wfplat.study.studyifc.session.task.state.CTEmptyState"/>
+  </task>
+</session>

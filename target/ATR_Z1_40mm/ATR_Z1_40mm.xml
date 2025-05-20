@@ -1,0 +1,65 @@
+<Atr xmlns="http://ct.med.xy.com/atr/atrschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Set>
+    <QuickLaunch duration="hours">8</QuickLaunch>
+    <PrescriptionDescription/>
+    <Patient PatientSelectionMode="Worklist">
+      <Name/>
+    </Patient>
+    <Runs order="Random" uncertainty="0" keepSessionMode="true" atrLocale="English" transition="Randomized" sptransitionend="401000" sptransitionATRt="1" intellmAmin="10" intellmAmax="20" heartRate="60">
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/3-18-22-1647575799540/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/8-30-23-1693386511702/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/9-1-23-1693572553541/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/10-8-21-1633676096600/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/11-13-20-1605249492793/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/12-7-20-1607346243345/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/Recon_In_IGD_Stress_Test/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/Special_char_ATR_english/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/Special_char_ATR_french/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/Special_char_ATR_german/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/Special_char_ATR_spanish/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/WestKendall_BRAIN-WO/UIRx.xml</location>
+      </Run>
+      <Run weight="1.0" xsi:type="atr:Protocol" xmlns:atr="http://ct.med.xy.com/atr/atrschema">
+        <waittime length="minutes">3</waittime>
+        <location>/usr/g/ctdesktop/wf_xy/resources/protocols/Site/WestKendall_CHEST-PULMONARY/UIRx.xml</location>
+      </Run>
+    </Runs>
+    <RunningOptions sprsnap="true" webresult="true" systemreATRt="true" memorymonitoring="false" disableaccess="true" systemreboot="true" revisitprotocol="false" reconreATRt="DISABLED"/>
+    <Indicators/>
+  </Set>
+</Atr>

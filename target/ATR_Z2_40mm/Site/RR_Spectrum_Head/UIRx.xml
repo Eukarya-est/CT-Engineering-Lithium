@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jrx:uirx xmlns:jrx="http://fct.med.xy.com/jrx">
+  <jrx:exam>
+    <jrx:ulement name="contrast_iv_series_number" type="Integer" value=""/>
+    <jrx:ulement name="contrast_iv_concentration" type="String" value=""/>
+    <jrx:ulement name="contrast_iv" type="String" value=""/>
+    <jrx:ulement name="contrast_oral_concentration" type="String" value=""/>
+    <jrx:ulement name="contrast_oral" type="String" value=""/>
+    <jrx:ulement name="contrast_oral_series_number" type="Integer" value=""/>
+    <jrx:ulement name="VersionName" type="String" value="3.5.1"/>
+    <jrx:ulement name="MagicNumber" type="String" value="1"/>
+    <jrx:ulement name="Source" type="String" value="Version0To1"/>
+    <jrx:ulement name="ExamCtdi" type="Double" value="54.9"/>
+    <jrx:ulement name="ExamDLP" type="Double" value="920.0400000000001"/>
+    <jrx:ulement name="isExamLevelXferEnabled" type="Boolean" value="false"/>
+    <jrx:ulement name="isDoseSCXferEnabled" type="Boolean" value="false"/>
+    <jrx:ulement name="isDoseSRXferEnabled" type="Boolean" value="false"/>
+    <jrx:proto>
+      <jrx:ulement name="protocolVersion" type="String" value="1.0"/>
+      <jrx:ulement name="protocolNotes" type="String" value="notes"/>
+      <jrx:ulement name="anatomy" type="String" value="head"/>
+      <jrx:ulement name="name" type="String" value="Head (site ATR)"/>
+      <jrx:ulement name="category" type="String" value="adult"/>
+      <jrx:series>
+        <jrx:ulement name="isAutoScanEnabled" type="Boolean" value="false"/>
+        <jrx:ulement name="patientOrientation" type="Integer" value="1"/>
+        <jrx:ulement name="patientPosition" type="Integer" value="1"/>
+        <jrx:ulement name="seriesType" type="Integer" value="3"/>
+        <jrx:ulement name="anatomicalReference" type="String" value="OM"/>
+        <jrx:ulement name="isEkgMonitoringOn" type="Boolean" value="false"/>
+        <jrx:ulement name="patientPositionCopyFwdEnabled" type="Boolean" value="false"/>
+        <jrx:ulement name="autoVoiceLanguage" type="Integer" value="101"/>
+        <jrx:ulement name="injectionModeType" type="Integer" value="0"/>
+        <jrx:ulement name="contrast_iv_volume" type="String" value="100"/>
+        <jrx:ulement name="contrast_oral_volume" type="String" value=""/>
+        <jrx:ulement name="contrast_iv_concentration" type="String" value=""/>
+        <jrx:ulement name="contrast_iv" type="String" value=""/>
+        <jrx:ulement name="contrast_oral_concentration" type="String" value=""/>
+        <jrx:ulement name="contrast_oral" type="String" value=""/>
+        <jrx:ulement name="scanClinicalIdKey" type="String" value="Abdominal.Kidney Stones"/>
+        <jrx:ulement name="oralContrastMode" type="Boolean" value="false"/>
+        <jrx:group>
+          <jrx:ulement name="kiloVolts" type="Integer" value="120"/>
+          <jrx:ulement name="groupType" type="Integer" value="4"/>
+          <jrx:ulement name="milliAmps" type="Integer" value="20"/>
+          <jrx:ulement name="scoutPlane" type="Integer" value="0"/>
+          <jrx:ulement name="autoVoiceEnabled" type="Boolean" value="false"/>
+          <jrx:ulement name="autoVoiceMessage" type="Integer" value="101"/>
+          <jrx:ulement name="voiceLightsTimerDelay" type="Double" value="0.0"/>
+          <jrx:ulement name="breathHoldTime" type="Double" value="0"/>
+          <jrx:ulement name="breathTime" type="Double" value="0"/>
+          <jrx:ulement name="breathingLights" type="Integer" value="0"/>
+          <jrx:ulement name="groupDelay" type="Double" value="0"/>
+          <jrx:ulement name="DLPNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="CTDIVolNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="CTDI" type="Double" value="0.08"/>
+          <jrx:ulement name="DLP" type="Double" value="2.11"/>
+          <jrx:ulement name="isNV_CTDI_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="isNV_DLP_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="autoVoicePlaybackOptions" type="Integer" value="0"/>
+          <jrx:ulement name="lockInterGroupDelay" type="Integer" value="0"/>
+          <jrx:ulement name="scanMode" type="Integer" value="0"/>
+          <jrx:ulement name="scoutType" type="Integer" value="0" visible="false"/>
+          <jrx:ulement name="ctdiVolBin" type="Integer" value="0" visible="false"/>
+          <jrx:ulement name="scanFieldOfViewType" type="Integer" value="1024"/>
+          <jrx:recon>
+            <jrx:ulement name="windowLevel" type="Integer" value="50"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="500"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Scout"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="-50.00"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+200.00"/>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="1"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="1"/>
+          </jrx:recon>
+        </jrx:group>
+        <jrx:group>
+          <jrx:ulement name="kiloVolts" type="Integer" value="120"/>
+          <jrx:ulement name="groupType" type="Integer" value="4"/>
+          <jrx:ulement name="milliAmps" type="Integer" value="20"/>
+          <jrx:ulement name="scoutPlane" type="Integer" value="90"/>
+          <jrx:ulement name="autoVoiceEnabled" type="Boolean" value="false"/>
+          <jrx:ulement name="autoVoiceMessage" type="Integer" value="101"/>
+          <jrx:ulement name="voiceLightsTimerDelay" type="Double" value="0.0"/>
+          <jrx:ulement name="breathHoldTime" type="Double" value="0"/>
+          <jrx:ulement name="breathTime" type="Double" value="0"/>
+          <jrx:ulement name="breathingLights" type="Integer" value="0"/>
+          <jrx:ulement name="groupDelay" type="Double" value="0"/>
+          <jrx:ulement name="DLPNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="CTDIVolNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="CTDI" type="Double" value="0.08"/>
+          <jrx:ulement name="DLP" type="Double" value="2.11"/>
+          <jrx:ulement name="isNV_CTDI_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="isNV_DLP_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="autoVoicePlaybackOptions" type="Integer" value="0"/>
+          <jrx:ulement name="lockInterGroupDelay" type="Integer" value="0"/>
+          <jrx:ulement name="scanMode" type="Integer" value="0"/>
+          <jrx:ulement name="scoutType" type="Integer" value="0" visible="false"/>
+          <jrx:ulement name="ctdiVolBin" type="Integer" value="0" visible="false"/>
+          <jrx:ulement name="scanFieldOfViewType" type="Integer" value="1024"/>
+          <jrx:recon>
+            <jrx:ulement name="windowLevel" type="Integer" value="50"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="500"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Scout"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="-50.00"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+200.00"/>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="1"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="1"/>
+          </jrx:recon>
+        </jrx:group>
+        <jrx:injector>
+          <jrx:ulement name="pressureLimit" type="Integer" value="150"/>
+          <jrx:phase>
+            <jrx:ulement name="injectionType" type="Integer" value="0"/>
+            <jrx:ulement name="injectionDelay" type="Integer" value="0"/>
+            <jrx:ulement name="totalFlowRate" type="Double" value="2.0"/>
+            <jrx:ulement name="totalVolume" type="Integer" value="100"/>
+            <jrx:ulement name="contrastMediaRatio" type="Integer" value="100"/>
+            <jrx:ulement name="salineRatio" type="Integer" value="0"/>
+            <jrx:ulement name="injectionDuration" type="Double" value="50.0"/>
+          </jrx:phase>
+        </jrx:injector>
+      </jrx:series>
+      <jrx:series>
+        <jrx:ulement name="isAutoScanEnabled" type="Boolean" value="true"/>
+        <jrx:ulement name="patientOrientation" type="Integer" value="1"/>
+        <jrx:ulement name="patientPosition" type="Integer" value="1"/>
+        <jrx:ulement name="seriesType" type="Integer" value="1"/>
+        <jrx:ulement name="anatomicalReference" type="String" value="OM"/>
+        <jrx:ulement name="isEkgMonitoringOn" type="Boolean" value="false"/>
+        <jrx:ulement name="patientPositionCopyFwdEnabled" type="Boolean" value="true"/>
+        <jrx:ulement name="autoVoiceLanguage" type="Integer" value="101"/>
+        <jrx:ulement name="injectionModeType" type="Integer" value="0"/>
+        <jrx:ulement name="contrast_iv_volume" type="String" value="100"/>
+        <jrx:ulement name="contrast_oral_volume" type="String" value=""/>
+        <jrx:ulement name="contrast_iv_concentration" type="String" value=""/>
+        <jrx:ulement name="contrast_iv" type="String" value=""/>
+        <jrx:ulement name="contrast_oral_concentration" type="String" value=""/>
+        <jrx:ulement name="contrast_oral" type="String" value=""/>
+        <jrx:ulement name="scanClinicalIdKey" type="String" value="Abdominal.Kidney Stones"/>
+        <jrx:ulement name="oralContrastMode" type="Boolean" value="false"/>
+        <jrx:group>
+          <jrx:ulement name="kiloVolts" type="Integer" value="120"/>
+          <jrx:ulement name="isHiResEnabled" type="Boolean" value="false" visible="false"/>
+          <jrx:ulement name="scanFieldOfViewType" type="Integer" value="2"/>
+          <jrx:ulement name="DLPNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="CTDIVolNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="groupType" type="Integer" value="4096"/>
+          <jrx:ulement name="groupDelay" type="Double" value="0.0"/>
+          <jrx:ulement name="rotationTime" type="Double" value="0.8"/>
+          <jrx:ulement name="milliAmps" type="Integer" value="110" visible="false"/>
+          <jrx:ulement name="macroRowNumber" type="Integer" value="32"/>
+          <jrx:ulement name="isNV_CTDI_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="isNV_DLP_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="milliAmpsMode" type="Integer" value="4"/>
+          <jrx:ulement name="milliAmpsMin" type="Integer" value="100"/>
+          <jrx:ulement name="milliAmpsMax" type="Integer" value="200"/>
+          <jrx:ulement name="kiloVoltsMode" type="Integer" value="0"/>
+          <jrx:ulement name="kiloVoltsMin" type="Integer" value="80"/>
+          <jrx:ulement name="kiloVoltsMax" type="Integer" value="140"/>
+          <jrx:ulement name="clinicalTaskIdentifier" type="Integer" value="0"/>
+          <jrx:ulement name="referenceNoiseIndex" type="Double" value="2.3"/>
+          <jrx:ulement name="autoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+          <jrx:ulement name="autoVoiceEnabled" type="Boolean" value="false"/>
+          <jrx:ulement name="autoVoiceMessage" type="Integer" value="101"/>
+          <jrx:ulement name="voiceLightsTimerDelay" type="Double" value="0.0"/>
+          <jrx:ulement name="breathHoldTime" type="Double" value="0"/>
+          <jrx:ulement name="breathTime" type="Double" value="0"/>
+          <jrx:ulement name="breathingLights" type="Integer" value="0"/>
+          <jrx:ulement name="doseSavings" type="Integer" value="0"/>
+          <jrx:ulement name="kiloVoltsBaseline" type="Integer" value="120"/>
+          <jrx:ulement name="milliAmpsBaseline" type="Integer" value="40"/>
+          <jrx:ulement name="milliAmpsMinBaseline" type="Integer" value="10"/>
+          <jrx:ulement name="milliAmpsMaxBaseline" type="Integer" value="200"/>
+          <jrx:ulement name="referenceNoiseIndexBaseline" type="Double" value="2.3"/>
+          <jrx:ulement name="scanFieldOfViewTypeBaseline" type="Integer" value="2"/>
+          <jrx:ulement name="CTDI" type="Double" value="27.37"/>
+          <jrx:ulement name="DLP" type="Double" value="457.91"/>
+          <jrx:ulement name="gsiMaMode" type="Integer" value="2"/>
+          <jrx:ulement name="gsiProfileKey" type="String" value="GE_E000001" visible="false"/>
+          <jrx:ulement name="gsiPresetFamilyKey" type="String" value="MED_1.0_40mm_BODY" visible="false"/>
+          <jrx:ulement name="gsiPresetKey" type="String" value="GSI0101"/>
+          <jrx:ulement name="autoVoicePlaybackOptions" type="Integer" value="0"/>
+          <jrx:ulement name="kvAssistProfileKey" type="String" value="" visible="false"/>
+          <jrx:ulement name="kvAssistOptimizationMode" type="Integer" value="0" visible="false"/>
+          <jrx:ulement name="lockInterGroupDelay" type="Integer" value="0"/>
+          <jrx:ulement name="scanMode" type="Integer" value="0"/>
+          <jrx:ulement name="pitch" type="Double" value="17.0"/>
+          <jrx:recon>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Axial"/>
+            <jrx:ulement name="reconKernel" type="Integer" value="4"/>
+            <jrx:ulement name="displayFieldOfView" type="Double" value="25.0"/>
+            <jrx:ulement name="displayFieldOfViewAP" type="Double" value="0.0"/>
+            <jrx:ulement name="displayFieldOfViewRL" type="Double" value="0.0"/>
+            <jrx:ulement name="windowLevel" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="100"/>
+            <jrx:ulement name="reconInterval" type="Double" value="5.0"/>
+            <jrx:ulement name="iterativeMode" type="Integer" value="16"/>
+            <jrx:ulement name="isQCReconModeOn" type="Boolean" value="true"/>
+            <jrx:ulement name="reconImageThickness" type="Double" value="5.0"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="+150.000"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+0.000"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="31"/>
+            <jrx:ulement name="windowLevelBaseline" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidthBaseline" type="Integer" value="100"/>
+            <jrx:ulement name="imageFlipOrientation" type="Integer" value="0"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="1"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="clinicalId" type="Integer" value="0"/>
+            <jrx:ulement name="enhancedContrast" type="Integer" value="5"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="gsiAutoProfileLink" type="Boolean" value="true"/>
+            <jrx:ulement name="gsiReconProfile" type="String" value="GSI_G000000"/>
+            <jrx:ulement name="intellPlan" type="Boolean" value="true" visible="false"/>
+            <jrx:ulement name="intellPlanDfovAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="rAutoview" type="Boolean" value="true"/>
+            <jrx:ulement name="imageFilter" type="Integer" value="0"/>
+            <jrx:ulement name="intellPlanAlgorithm" type="Integer" value="1" visible="false"/>
+            <jrx:ulement name="reconMatrix" type="Integer" value="512"/>
+            <jrx:ulement name="intellPlanCenterAdjustment" type="Boolean" value="true"/>
+            <jrx:ulement name="reconAutoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="segments" type="String" value="7"/>
+            <jrx:ulement name="isIQEnhancedEnabled" type="Integer" value="0"/>
+          </jrx:recon>
+          <jrx:recon>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Axial"/>
+            <jrx:ulement name="reconKernel" type="Integer" value="4"/>
+            <jrx:ulement name="displayFieldOfView" type="Double" value="25.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewAP" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewRL" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="windowLevel" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="100"/>
+            <jrx:ulement name="reconInterval" type="Double" value="0.625"/>
+            <jrx:ulement name="iterativeMode" type="Integer" value="16"/>
+            <jrx:ulement name="isQCReconModeOn" type="Boolean" value="true"/>
+            <jrx:ulement name="reconImageThickness" type="Double" value="0.625"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="+150.000" copyfwd="true"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+0.000" copyfwd="true"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="241"/>
+            <jrx:ulement name="windowLevelBaseline" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidthBaseline" type="Integer" value="100"/>
+            <jrx:ulement name="imageFlipOrientation" type="Integer" value="0"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="1"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="clinicalId" type="Integer" value="0"/>
+            <jrx:ulement name="enhancedContrast" type="Integer" value="5"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="gsiAutoProfileLink" type="Boolean" value="true"/>
+            <jrx:ulement name="gsiReconProfile" type="String" value="GSI_G000000"/>
+            <jrx:ulement name="intellPlan" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="intellPlanDfovAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="rAutoview" type="Boolean" value="true"/>
+            <jrx:ulement name="imageFilter" type="Integer" value="0"/>
+            <jrx:ulement name="intellPlanAlgorithm" type="Integer" value="1" visible="false"/>
+            <jrx:ulement name="reconMatrix" type="Integer" value="512"/>
+            <jrx:ulement name="intellPlanCenterAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="reconAutoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="segments" type="String" value="7"/>
+            <jrx:ulement name="isIQEnhancedEnabled" type="Integer" value="1"/>
+          </jrx:recon>
+          <jrx:recon>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Axial"/>
+            <jrx:ulement name="reconKernel" type="Integer" value="16384"/>
+            <jrx:ulement name="displayFieldOfView" type="Double" value="25.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewAP" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewRL" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="windowLevel" type="Integer" value="500"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="2500"/>
+            <jrx:ulement name="reconInterval" type="Double" value="0.625"/>
+            <jrx:ulement name="iterativeMode" type="Integer" value="16"/>
+            <jrx:ulement name="isQCReconModeOn" type="Boolean" value="true"/>
+            <jrx:ulement name="reconImageThickness" type="Double" value="0.625"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="+150.000" copyfwd="true"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+0.000" copyfwd="true"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="241"/>
+            <jrx:ulement name="windowLevelBaseline" type="Integer" value="500"/>
+            <jrx:ulement name="windowWidthBaseline" type="Integer" value="2500"/>
+            <jrx:ulement name="imageFlipOrientation" type="Integer" value="0"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="4"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="clinicalId" type="Integer" value="0"/>
+            <jrx:ulement name="enhancedContrast" type="Integer" value="0"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="gsiAutoProfileLink" type="Boolean" value="true"/>
+            <jrx:ulement name="gsiReconProfile" type="String" value="GSI_G000000"/>
+            <jrx:ulement name="intellPlan" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="intellPlanDfovAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="rAutoview" type="Boolean" value="true"/>
+            <jrx:ulement name="imageFilter" type="Integer" value="0"/>
+            <jrx:ulement name="intellPlanAlgorithm" type="Integer" value="1" visible="false"/>
+            <jrx:ulement name="reconMatrix" type="Integer" value="512"/>
+            <jrx:ulement name="intellPlanCenterAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="reconAutoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="segments" type="String" value="0"/>
+            <jrx:ulement name="isIQEnhancedEnabled" type="Integer" value="1"/>
+          </jrx:recon>
+          <jrx:odminfo>
+            <jrx:ulement name="odmStartLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmEndLoc" type="Double" value="50.0"/>
+            <jrx:ulement name="odmDFOVLength_AP" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_AP" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_LR" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_LR" type="Double" value="0.0"/>
+            <jrx:ulement name="isODMEnabled" type="Boolean" value="true"/>
+          </jrx:odminfo>
+          <jrx:odminfo>
+            <jrx:ulement name="odmStartLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmEndLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_AP" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_AP" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_LR" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_LR" type="Double" value="0.0"/>
+            <jrx:ulement name="isODMEnabled" type="Boolean" value="false"/>
+          </jrx:odminfo>
+          <jrx:odminfo>
+            <jrx:ulement name="odmStartLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmEndLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_AP" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_AP" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_LR" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_LR" type="Double" value="0.0"/>
+            <jrx:ulement name="isODMEnabled" type="Boolean" value="false"/>
+          </jrx:odminfo>
+        </jrx:group>
+        <jrx:injector>
+          <jrx:ulement name="pressureLimit" type="Integer" value="150"/>
+          <jrx:phase>
+            <jrx:ulement name="injectionType" type="Integer" value="0"/>
+            <jrx:ulement name="injectionDelay" type="Integer" value="0"/>
+            <jrx:ulement name="totalFlowRate" type="Double" value="2.0"/>
+            <jrx:ulement name="totalVolume" type="Integer" value="100"/>
+            <jrx:ulement name="contrastMediaRatio" type="Integer" value="100"/>
+            <jrx:ulement name="salineRatio" type="Integer" value="0"/>
+            <jrx:ulement name="injectionDuration" type="Double" value="50.0"/>
+          </jrx:phase>
+        </jrx:injector>
+      </jrx:series>
+      <jrx:series>
+        <jrx:ulement name="isAutoScanEnabled" type="Boolean" value="true"/>
+        <jrx:ulement name="patientOrientation" type="Integer" value="1"/>
+        <jrx:ulement name="patientPosition" type="Integer" value="1"/>
+        <jrx:ulement name="seriesType" type="Integer" value="1"/>
+        <jrx:ulement name="anatomicalReference" type="String" value="OM"/>
+        <jrx:ulement name="isEkgMonitoringOn" type="Boolean" value="false"/>
+        <jrx:ulement name="patientPositionCopyFwdEnabled" type="Boolean" value="true"/>
+        <jrx:ulement name="autoVoiceLanguage" type="Integer" value="101"/>
+        <jrx:ulement name="injectionModeType" type="Integer" value="1"/>
+        <jrx:ulement name="contrast_iv_volume" type="String" value="50"/>
+        <jrx:ulement name="contrast_oral_volume" type="String" value="0 ml"/>
+        <jrx:ulement name="contrast_iv_concentration" type="String" value=""/>
+        <jrx:ulement name="contrast_iv" type="String" value=""/>
+        <jrx:ulement name="contrast_oral_concentration" type="String" value=""/>
+        <jrx:ulement name="contrast_oral" type="String" value=""/>
+        <jrx:ulement name="scanClinicalIdKey" type="String" value="Abdominal.Kidney Stones"/>
+        <jrx:ulement name="oralContrastMode" type="Boolean" value="false"/>
+        <jrx:group>
+          <jrx:ulement name="kiloVolts" type="Integer" value="120"/>
+          <jrx:ulement name="isHiResEnabled" type="Boolean" value="false" visible="false"/>
+          <jrx:ulement name="scanFieldOfViewType" type="Integer" value="2"/>
+          <jrx:ulement name="DLPNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="CTDIVolNotificationValue" type="Double" value="1000.0"/>
+          <jrx:ulement name="groupType" type="Integer" value="4096"/>
+          <jrx:ulement name="groupDelay" type="Double" value="120.0"/>
+          <jrx:ulement name="rotationTime" type="Double" value="0.8"/>
+          <jrx:ulement name="milliAmps" type="Integer" value="110" visible="false"/>
+          <jrx:ulement name="macroRowNumber" type="Integer" value="32"/>
+          <jrx:ulement name="isNV_CTDI_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="isNV_DLP_Needed" type="Boolean" value="false"/>
+          <jrx:ulement name="milliAmpsMode" type="Integer" value="2"/>
+          <jrx:ulement name="milliAmpsMin" type="Integer" value="100"/>
+          <jrx:ulement name="milliAmpsMax" type="Integer" value="200"/>
+          <jrx:ulement name="kiloVoltsMode" type="Integer" value="0"/>
+          <jrx:ulement name="kiloVoltsMin" type="Integer" value="80"/>
+          <jrx:ulement name="kiloVoltsMax" type="Integer" value="140"/>
+          <jrx:ulement name="clinicalTaskIdentifier" type="Integer" value="0"/>
+          <jrx:ulement name="referenceNoiseIndex" type="Double" value="2.3"/>
+          <jrx:ulement name="autoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+          <jrx:ulement name="autoVoiceEnabled" type="Boolean" value="false"/>
+          <jrx:ulement name="autoVoiceMessage" type="Integer" value="101"/>
+          <jrx:ulement name="voiceLightsTimerDelay" type="Double" value="0.0"/>
+          <jrx:ulement name="breathHoldTime" type="Double" value="0"/>
+          <jrx:ulement name="breathTime" type="Double" value="0"/>
+          <jrx:ulement name="breathingLights" type="Integer" value="0"/>
+          <jrx:ulement name="doseSavings" type="Integer" value="0"/>
+          <jrx:ulement name="kiloVoltsBaseline" type="Integer" value="120"/>
+          <jrx:ulement name="milliAmpsBaseline" type="Integer" value="40"/>
+          <jrx:ulement name="milliAmpsMinBaseline" type="Integer" value="10"/>
+          <jrx:ulement name="milliAmpsMaxBaseline" type="Integer" value="200"/>
+          <jrx:ulement name="referenceNoiseIndexBaseline" type="Double" value="2.3"/>
+          <jrx:ulement name="scanFieldOfViewTypeBaseline" type="Integer" value="2"/>
+          <jrx:ulement name="CTDI" type="Double" value="27.37"/>
+          <jrx:ulement name="DLP" type="Double" value="457.91"/>
+          <jrx:ulement name="gsiMaMode" type="Integer" value="2"/>
+          <jrx:ulement name="gsiProfileKey" type="String" value="GE_E000001" visible="false"/>
+          <jrx:ulement name="gsiPresetFamilyKey" type="String" value="MED_1.0_40mm_BODY" visible="false"/>
+          <jrx:ulement name="gsiPresetKey" type="String" value="GSI0101"/>
+          <jrx:ulement name="autoVoicePlaybackOptions" type="Integer" value="0"/>
+          <jrx:ulement name="kvAssistProfileKey" type="String" value="" visible="false"/>
+          <jrx:ulement name="kvAssistOptimizationMode" type="Integer" value="0" visible="false"/>
+          <jrx:ulement name="lockInterGroupDelay" type="Integer" value="0"/>
+          <jrx:ulement name="scanMode" type="Integer" value="0"/>
+          <jrx:ulement name="pitch" type="Double" value="17.0"/>
+          <jrx:recon>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Axial"/>
+            <jrx:ulement name="reconKernel" type="Integer" value="4"/>
+            <jrx:ulement name="displayFieldOfView" type="Double" value="25.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewAP" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewRL" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="windowLevel" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="100"/>
+            <jrx:ulement name="reconInterval" type="Double" value="5.0"/>
+            <jrx:ulement name="iterativeMode" type="Integer" value="16"/>
+            <jrx:ulement name="isQCReconModeOn" type="Boolean" value="true"/>
+            <jrx:ulement name="reconImageThickness" type="Double" value="5.0"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="+150.000" copyfwd="true"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+0.000" copyfwd="true"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="31"/>
+            <jrx:ulement name="windowLevelBaseline" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidthBaseline" type="Integer" value="100"/>
+            <jrx:ulement name="imageFlipOrientation" type="Integer" value="0"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="8"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="clinicalId" type="Integer" value="0"/>
+            <jrx:ulement name="enhancedContrast" type="Integer" value="5"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="gsiAutoProfileLink" type="Boolean" value="true"/>
+            <jrx:ulement name="gsiReconProfile" type="String" value="GSI_G000000"/>
+            <jrx:ulement name="intellPlan" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="intellPlanDfovAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="rAutoview" type="Boolean" value="true"/>
+            <jrx:ulement name="imageFilter" type="Integer" value="0"/>
+            <jrx:ulement name="intellPlanAlgorithm" type="Integer" value="1" visible="false"/>
+            <jrx:ulement name="reconMatrix" type="Integer" value="512"/>
+            <jrx:ulement name="intellPlanCenterAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="reconAutoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="segments" type="String" value="7"/>
+            <jrx:ulement name="isIQEnhancedEnabled" type="Integer" value="0"/>
+          </jrx:recon>
+          <jrx:recon>
+            <jrx:ulement name="isReconEnabled" type="Boolean" value="true"/>
+            <jrx:ulement name="seriesDescriptionRecon" type="String" value="Axial"/>
+            <jrx:ulement name="reconKernel" type="Integer" value="4"/>
+            <jrx:ulement name="displayFieldOfView" type="Double" value="25.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewAP" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="displayFieldOfViewRL" type="Double" value="0.0" copyfwd="true"/>
+            <jrx:ulement name="windowLevel" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidth" type="Integer" value="100"/>
+            <jrx:ulement name="reconInterval" type="Double" value="0.625"/>
+            <jrx:ulement name="iterativeMode" type="Integer" value="16"/>
+            <jrx:ulement name="isQCReconModeOn" type="Boolean" value="true"/>
+            <jrx:ulement name="reconImageThickness" type="Double" value="0.625"/>
+            <jrx:ulement name="reconEndLocation" type="Double" value="+150.000" copyfwd="true"/>
+            <jrx:ulement name="reconStartLocation" type="Double" value="+0.000" copyfwd="true"/>
+            <jrx:ulement name="reconNumberOfImages" type="Integer" value="241"/>
+            <jrx:ulement name="windowLevelBaseline" type="Integer" value="30"/>
+            <jrx:ulement name="windowWidthBaseline" type="Integer" value="100"/>
+            <jrx:ulement name="imageFlipOrientation" type="Integer" value="0"/>
+            <jrx:ulement name="viewportIndicator" type="Integer" value="8"/>
+            <jrx:ulement name="isXferEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="isExamSplitEnabled" type="Boolean" value="false"/>
+            <jrx:ulement name="clinicalId" type="Integer" value="0"/>
+            <jrx:ulement name="enhancedContrast" type="Integer" value="5"/>
+            <jrx:ulement name="reqProcCode" type="String" value="" visible="false"/>
+            <jrx:ulement name="reconClinicalIdCategoryKey" type="Integer" value="1"/>
+            <jrx:ulement name="reconClinicalIdKey" type="Integer" value="101"/>
+            <jrx:ulement name="gsiAutoProfileLink" type="Boolean" value="true"/>
+            <jrx:ulement name="gsiReconProfile" type="String" value="GSI_G000000"/>
+            <jrx:ulement name="intellPlan" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="intellPlanDfovAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="rAutoview" type="Boolean" value="true"/>
+            <jrx:ulement name="imageFilter" type="Integer" value="0"/>
+            <jrx:ulement name="intellPlanAlgorithm" type="Integer" value="1" visible="false"/>
+            <jrx:ulement name="reconMatrix" type="Integer" value="512"/>
+            <jrx:ulement name="intellPlanCenterAdjustment" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="reconAutoAdjustWWWL" type="Boolean" value="false" visible="false"/>
+            <jrx:ulement name="segments" type="String" value="7"/>
+            <jrx:ulement name="isIQEnhancedEnabled" type="Integer" value="1"/>
+          </jrx:recon>
+          <jrx:odminfo>
+            <jrx:ulement name="odmStartLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmEndLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_AP" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_AP" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_LR" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_LR" type="Double" value="0.0"/>
+            <jrx:ulement name="isODMEnabled" type="Boolean" value="false"/>
+          </jrx:odminfo>
+          <jrx:odminfo>
+            <jrx:ulement name="odmStartLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmEndLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_AP" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_AP" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_LR" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_LR" type="Double" value="0.0"/>
+            <jrx:ulement name="isODMEnabled" type="Boolean" value="false"/>
+          </jrx:odminfo>
+          <jrx:odminfo>
+            <jrx:ulement name="odmStartLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmEndLoc" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_AP" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_AP" type="Double" value="0.0"/>
+            <jrx:ulement name="odmDFOVLength_LR" type="Double" value="25.0"/>
+            <jrx:ulement name="odmDFOVCenter_LR" type="Double" value="0.0"/>
+            <jrx:ulement name="isODMEnabled" type="Boolean" value="false"/>
+          </jrx:odminfo>
+        </jrx:group>
+        <jrx:injector>
+          <jrx:ulement name="pressureLimit" type="Integer" value="150"/>
+          <jrx:phase>
+            <jrx:ulement name="injectionType" type="Integer" value="0"/>
+            <jrx:ulement name="injectionDelay" type="Integer" value="0"/>
+            <jrx:ulement name="totalFlowRate" type="Double" value="2.0"/>
+            <jrx:ulement name="totalVolume" type="Integer" value="50"/>
+            <jrx:ulement name="contrastMediaRatio" type="Integer" value="100"/>
+            <jrx:ulement name="salineRatio" type="Integer" value="0"/>
+            <jrx:ulement name="injectionDuration" type="Double" value="25.0"/>
+          </jrx:phase>
+        </jrx:injector>
+      </jrx:series>
+    </jrx:proto>
+  </jrx:exam>
+</jrx:uirx>
