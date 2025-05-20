@@ -27,6 +27,8 @@ So this script for extracting XML to arrange and translate test description and 
 3. Get the result txt file
     - Ex) ATR_Z1_40mm.txt
 
+* It has some differences from real work thing.
+
 2025.05.13 - 05.19
 
 
