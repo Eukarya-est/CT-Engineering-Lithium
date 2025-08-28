@@ -1,0 +1,2089 @@
+-----	-----	-----	-----	-----	
+2025-08-28 05:17:06 Generated.
+ATR_Z1_40mm.xml	Thu Aug 28 14:14:29 2025 Modified.	
+Session#	Session Name	File List	
+*****	*****	*****	*****	*****	
+Protocol Name	Series#	Group#	Parameters	
+-----	-----	-----	-----	-----	
+
+
+#1	3-18-22-1647575799540	UIRx.xml	Thu Aug 28 14:14:24 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:25 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CT CHEST for Advantage 4D - 1 group - 20mm	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Cine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	100
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Respiratory Gated
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	1408
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Respiratory Gated
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	1792
+				DFOV	32.0
+				Recon Matrix	512
+
+#2	8-30-23-1693386511702	UIRx.xml	Thu Aug 28 14:14:23 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:24 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+ABD-PEL CE(3phase) TEDL (site ATR) - heavy	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+		Group 3	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Pelvis Delayed
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	689
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Pelvis Delayed
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	689
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 3	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 4	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 5	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 6	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 7	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 8	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 9	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 10	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 11	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 12	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	449
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	225
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 4	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abdomen Arterial
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	449
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 5	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 6	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis Delayed
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	225
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 7	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abdomen Arterial
+				Recon CID Catergory	Abdominal
+				Recon Type	Soft
+				Recon Number of Images	449
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 8	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 9	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis Delayed
+				Recon CID Catergory	Abdominal
+				Recon Type	Soft
+				Recon Number of Images	225
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 10	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abdomen Arterial
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	449
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 11	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	57
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 12	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis Delayed
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	225
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 3	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	689
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 4	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 5	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abdomen Portal
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	689
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 6	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 7	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 8	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abdomen Portal
+				Recon CID Catergory	Abdominal
+				Recon Type	Soft
+				Recon Number of Images	689
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 9	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 10	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 11	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abdomen Portal
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	689
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 12	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	---
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	87
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+
+#3	9-1-23-1693572553541	UIRx.xml	Thu Aug 28 14:14:21 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:22 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CT ABD PEL LE ANGIO TEDL ATR - heavy2	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	80
+			Detector Coverage	0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	10
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 3	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Detector Coverage	40
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Runoff
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	224
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis CTA
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	112
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis CTA
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	1792
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis CTA
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	896
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 4	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis CTA
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	896
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+
+#4	10-8-21-1633676096600	UIRx.xml	Thu Aug 28 14:14:28 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:29 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CT HEAD PERFUS WO & W PERFUS Cine	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Head
+			Pitch	63.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd#
+				Recon Number of Images	84
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	EC1
+	Series 3	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Small Body
+			Pitch	98.0
+			Primary Recon	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	665
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	665
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	665
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	665
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Small Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 3	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			SFOV	Small Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	217
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 4	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Small Body
+			kV	140
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
+	Series 4	Group 1	Scan Type	Cine
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Head
+			Detector Coverage	0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	264
+				DFOV	25.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Type	Soft
+				Recon Number of Images	1056
+				DFOV	25.0
+				Recon Matrix	512
+		Group 2	Scan Type	Cine
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Head
+			Detector Coverage	0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd
+				Recon Number of Images	80
+				DFOV	25.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Type	Soft
+				Recon Number of Images	320
+				DFOV	25.0
+				Recon Matrix	512
+	Series 5	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Head
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head w Contrast
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd#
+				Recon Number of Images	56
+				DFOV	22.0
+				Recon Matrix	512
+				Enhanced Contrast	EC1
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head w Contrast
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd#
+				Recon Number of Images	224
+				DFOV	22.0
+				Recon Matrix	1024
+				Enhanced Contrast	EC1
+
+#5	11-13-20-1605249492793	UIRx.xml	Tue May 20 12:49:29 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:27 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CT HEAD ANGIO CIRC WILLIS	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Neuro
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Neuro
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Head
+			mA	50
+			Detector Coverage	0.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	10
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 3	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Head
+			mA	125
+			Pitch	17.0
+			Primary Recon	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	COW
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	20.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	COW
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	65
+				DFOV	20.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	COW
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	20.0
+				Recon Matrix	1024
+				Enhanced Contrast	Off
+
+#6	12-7-20-1607346243345	UIRx.xml	Thu Aug 28 14:14:26 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:26 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CT HEAD PERFUS WO & W PERFUS Cine	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Stroke
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Head
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd#
+				Recon Number of Images	28
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	EB1
+	Series 3	Group 1	Scan Type	Cine
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			SFOV	Head
+			Detector Coverage	0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	712
+				DFOV	25.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	General
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	2848
+				DFOV	25.0
+				Recon Matrix	512
+	Series 4	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Head
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Routine Head w Contrast
+				Recon CID Catergory	Stroke
+				Recon Type	Stnd#
+				Recon Number of Images	32
+				DFOV	25.0
+				Recon Matrix	512
+				Enhanced Contrast	EB1
+
+#7	Recon_In_IGD_Stress_Test	UIRx.xml	Thu Aug 28 14:14:20 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:21 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+ABD-PEL Recon in IGD heavy	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Ultra
+				Recon Number of Images	1121
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	1121
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Bone
+				Recon Number of Images	560
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 3	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Detector Coverage	40.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	80
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Bone
+				Recon Number of Images	160
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 4	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	1121
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Bone
+				Recon Number of Images	560
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 3	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	31.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Edge
+				Recon Number of Images	281
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 5	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	1121
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Detector Coverage	20.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Bone
+				Recon Number of Images	560
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 3	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	31.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	140
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Edge
+				Recon Number of Images	281
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 6	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Lung
+				Recon Number of Images	1121
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Detail
+				Recon Number of Images	1121
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Large Body
+			kV	120
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
+	Series 7	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Chest
+				Recon Number of Images	141
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 3	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 4	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 5	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 6	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 7	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 8	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 9	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 10	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 11	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 12	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 13	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Clinical Identifier	Abd Pelvis
+				Recon CID Catergory	Abdominal
+				Recon Type	Stnd
+				Recon Number of Images	11
+				DFOV	35.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+
+#8	Special_char_ATR_english	UIRx.xml	Thu Aug 28 14:14:18 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:18 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+ATR for special character - English @$\|/?~.,	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	513
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	513
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 3	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Large Body
+			kV	120
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
+	Series 3	Group 1	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	14
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	28
+				DFOV	32.0
+				Recon Matrix	512
+		Group 2	Scan Type	CardiacHelical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Pitch	16.64
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	41
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	805
+				DFOV	32.0
+				Recon Matrix	512
+		Group 3	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	42
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Detail
+				Recon Number of Images	168
+				DFOV	32.0
+				Recon Matrix	512
+	Series 4	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	60
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	36
+				DFOV	36
+	Series 5	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	120
+			Primary Recon	Recon Slice Thickness	1.25
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	1221
+				DFOV	36
+
+#9	Special_char_ATR_french	UIRx.xml	Thu Aug 28 14:14:17 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:17 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+ATR for special character - French ²éèçà°^£§¤&"'^$./	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	513
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Large Body
+			kV	120
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
+	Series 3	Group 1	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	14
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	28
+				DFOV	32.0
+				Recon Matrix	512
+		Group 2	Scan Type	CardiacHelical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Pitch	16.64
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	41
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	805
+				DFOV	32.0
+				Recon Matrix	512
+		Group 3	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	42
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Detail
+				Recon Number of Images	168
+				DFOV	32.0
+				Recon Matrix	512
+	Series 4	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	60
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	36
+				DFOV	36
+	Series 5	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	120
+			Primary Recon	Recon Slice Thickness	1.25
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	1221
+				DFOV	36
+
+#10	Special_char_ATR_german	UIRx.xml	Thu Aug 28 14:14:15 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:16 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+ATR for special character - German ß°§üÜ*öäÖÄ²³µâáà	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	513
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Large Body
+			kV	120
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
+	Series 3	Group 1	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	14
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	28
+				DFOV	32.0
+				Recon Matrix	512
+		Group 2	Scan Type	CardiacHelical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Pitch	16.64
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	41
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	805
+				DFOV	32.0
+				Recon Matrix	512
+		Group 3	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	42
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Detail
+				Recon Number of Images	168
+				DFOV	32.0
+				Recon Matrix	512
+	Series 4	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	60
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	36
+				DFOV	36
+	Series 5	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	120
+			Primary Recon	Recon Slice Thickness	1.25
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	1221
+				DFOV	36
+
+#11	Special_char_ATR_spanish	UIRx.xml	Thu Aug 28 14:14:13 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:14 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+ATR for special character - Spanish º¡ª¿ñ´çÑ¨Ç¬àâáä	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+			Secondary Recon 1	Recon Clinical Identifier	General
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			Pitch	88.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	129
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	513
+				DFOV	32.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Large Body
+			kV	120
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
+	Series 3	Group 1	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	14
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	28
+				DFOV	32.0
+				Recon Matrix	512
+		Group 2	Scan Type	CardiacHelical
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Pitch	16.64
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	41
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	805
+				DFOV	32.0
+				Recon Matrix	512
+		Group 3	Scan Type	Cardiaccine
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Cardiac Large
+			Detector Coverage	35.0
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	42
+				DFOV	32.0
+				Recon Matrix	512
+			Secondary Recon 1	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Arterial
+				Recon CID Catergory	Thoracic
+				Recon Type	Detail
+				Recon Number of Images	168
+				DFOV	32.0
+				Recon Matrix	512
+	Series 4	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	60
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	36
+				DFOV	36
+	Series 5	Group 1	Scan Type	Fluoro
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			SFOV	Large Body
+			mA	120
+			Primary Recon	Recon Slice Thickness	1.25
+				Recon CID Catergory	---
+				Recon Type	Stnd
+				Recon Number of Images	1221
+				DFOV	36
+
+#12	WestKendall_BRAIN-WO	UIRx.xml	Thu Aug 28 14:14:12 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:13 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CT BRAIN WO (site ATR)	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Head
+			Detector Coverage	20.56830387330417
+			mA	500
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	72
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Soft#
+				Recon Number of Images	72
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Bone
+				Recon Number of Images	72
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd#
+				Recon Number of Images	288
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+	Series 3	Group 1	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			kV	140
+			SFOV	Head
+			Detector Coverage	20.56830387330417
+			mA	500
+			Primary Recon	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd
+				Recon Number of Images	32
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Soft#
+				Recon Number of Images	32
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	2.5
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Bone
+				Recon Number of Images	32
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 3	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	Routine Head
+				Recon CID Catergory	Neuro
+				Recon Type	Stnd#
+				Recon Number of Images	128
+				DFOV	23.0
+				Recon Matrix	512
+				Enhanced Contrast	Off
+
+#13	WestKendall_CHEST-PULMONARY	UIRx.xml	Thu Aug 28 14:14:11 2025 Modified.	
+		session.xml	Thu Aug 28 14:14:11 2025 Modified.	
+*****	*****	*****	*****	*****	
+
+CHEST PULMONARY EMBOLISM (site ATR)	Series 1	Group 1	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	PE
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+		Group 2	Scan Type	Scout
+			Scan CID	Abdominal.Kidney Stones
+			kV	120
+			mA	10
+			SFOV	Large Body
+			Primary Recon	Recon Clinical Identifier	PE
+				Recon CID Catergory	Thoracic
+				Recon Number of Images	1
+	Series 2	Group 1	Scan Type	Helical
+			Scan CID	Abdominal.Kidney Stones
+			kV	80
+			SFOV	Large Body
+			Pitch	63.0
+			Primary Recon	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	PE
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	237
+				DFOV	40.800000000000004
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 1	Recon Slice Thickness	1.25
+				Recon Clinical Identifier	HiRes Chest
+				Recon CID Catergory	Thoracic
+				Recon Type	Lung
+				Recon Number of Images	30
+				DFOV	40.800000000000004
+				Recon Matrix	512
+				Enhanced Contrast	Off
+			Secondary Recon 2	Recon Slice Thickness	0.625
+				Recon Clinical Identifier	PE
+				Recon CID Catergory	Thoracic
+				Recon Type	Stnd
+				Recon Number of Images	473
+				DFOV	40.800000000000004
+				Recon Matrix	512
+				Enhanced Contrast	Off
+		Group 2	Scan Type	Axial
+			Scan CID	Abdominal.Kidney Stones
+			SFOV	Large Body
+			kV	80
+			Primary Recon	Recon Slice Thickness	5.0
+				Recon Type	Stnd
+				Recon Number of Images	1
+				DFOV	36
