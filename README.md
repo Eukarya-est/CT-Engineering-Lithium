@@ -1,5 +1,8 @@
 # CT-Engineering Lithium
-## XML for 'Auto Test for Reliability' Information Extractor 
+
+13.May.2025 - 19.May.2025
+
+## The XML for 'Auto Test for Reliability' information Eetractor 
 
 XML for 'Auto Test for Reliability'. contains test description and parameters \
 So this script for extracting XML to arrange and translate test description and parameters.
@@ -33,7 +36,6 @@ So this script for extracting XML to arrange and translate test description and 
 
 * It has some differences from real work thing.
 
-2025.05.13 - 05.19
 
 
 
