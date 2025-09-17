@@ -1,10 +1,10 @@
-# lithium
+# CT-Engineering Lithium
 ## XML for 'Auto Test for Reliability' Information Extractor 
 
 XML for 'Auto Test for Reliability'. contains test description and parameters \
 So this script for extracting XML to arrange and translate test description and parameters.
 
-# Component
+## Component
 1. atrinfo-txt.py
 2. target/
 3. README.md
@@ -15,7 +15,7 @@ So this script for extracting XML to arrange and translate test description and 
 6. json/enum-*.json
     - The key dictionary
 
-# How to Use
+## How to Use
 1. Input a StarProtocol directory to target; Star Protocolのフォルダを'target'フォルダに入れる。
     - Ex) 'ATR_Z1_40mm'
         - /target/ATR_Z1_40mm
@@ -34,6 +34,7 @@ So this script for extracting XML to arrange and translate test description and 
 * It has some differences from real work thing.
 
 2025.05.13 - 05.19
+
 
 
 
